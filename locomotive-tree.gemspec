@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Tibor Claassen"]
   spec.email         = ["tibor@gmah.net"]
 
-  spec.summary       = %q(Arrange content entries in a tree structure)
+  spec.summary       = %q(Arrange content entries into a tree structure)
   spec.description   = %q(Configure a LocomotiveCMS content type to build up a
                           directed root tree graph. Provide easy traversal and
                           querying of the nested content entries.
