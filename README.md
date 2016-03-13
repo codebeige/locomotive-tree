@@ -17,6 +17,9 @@ gem 'locomotive-tree'
 
 Add a `content-tree` property to your content type definition.
 
+This will create a recursive belongs-to relation of name `parent` and the
+inverted has-many relation called `children` respectively.
+
 #### Example
 
 Inside `app/content_types/categories.yml`:
